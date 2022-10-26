@@ -20,7 +20,7 @@ steps:
   inputs:
     solution: 'samples/databases/wide-world-importers/wwi-dw-ssdt/WideWorldImportersDW.sln'
     configuration: '$(BuildConfiguration)'
-
+ 
 - task: CopyFiles@2
   displayName: 'Copy Files to: $(Build.ArtifactStagingDirectory)'
   inputs:
